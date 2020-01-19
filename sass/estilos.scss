@@ -1,0 +1,72 @@
+@import 'reseteo/reset';
+
+.header{
+    display: flex;
+    background:#ddd8d8;
+    height:100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+ .titulo{
+    font-size: 30px;
+ }
+.seccion{
+    border: 3px solid #1e3093;
+    border-radius: 7px; 
+    margin-bottom: 15px;
+    margin: 20px 30px 20px 30px;
+    box-shadow: 5px 1px 5px #666;
+   
+}
+.subtitulo{
+    background:  #1e3093;
+    color: #ffffff;
+    margin: 0;
+    padding: 8px;
+    font-size: 20px;
+}
+.tabla{
+    text-align: center;
+    width: 100%;
+    padding: 45px;
+    font-size: 18px;
+    line-height: 2;
+    
+
+}
+.filas{
+    border-top: 1px solid #bcb3b3
+}
+.boton-cerrar{
+    font-size: 14px;
+    padding: 9px;
+    border-radius: 5px;
+    background: green;
+    color: white;
+}
+.boton-eliminar{
+    font-size: 14px;
+    padding: 9px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+}
+.content-inputs{
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 10px;
+    .input{
+        font-size: 14px;
+        padding: 8px;
+        border-radius: 8px;
+    }
+    .boton-agregar{
+        font-size: 14px;
+        padding: 9px;
+        border-radius: 5px;
+        background: #0b0b8b;
+        color: white;
+    }
+    
+}

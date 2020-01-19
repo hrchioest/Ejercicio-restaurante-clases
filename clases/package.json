@@ -1,0 +1,11 @@
+{
+  "name": "restaurante",
+  "version": "1.0.0",
+  "main": "restaurante.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

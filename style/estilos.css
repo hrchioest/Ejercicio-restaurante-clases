@@ -1,0 +1,126 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  display: flex;
+  background: #ddd8d8;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.titulo {
+  font-size: 30px;
+}
+
+.seccion {
+  border: 3px solid #1e3093;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  margin: 20px 30px 20px 30px;
+  box-shadow: 5px 1px 5px #666;
+}
+
+.subtitulo {
+  background: #1e3093;
+  color: #ffffff;
+  margin: 0;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.tabla {
+  text-align: center;
+  width: 100%;
+  padding: 45px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.filas {
+  border-top: 1px solid #bcb3b3;
+}
+
+.boton-cerrar {
+  font-size: 14px;
+  padding: 9px;
+  border-radius: 5px;
+  background: green;
+  color: white;
+}
+
+.boton-eliminar {
+  font-size: 14px;
+  padding: 9px;
+  border-radius: 5px;
+  background: red;
+  color: white;
+}
+
+.content-inputs {
+  text-align: center;
+  padding-bottom: 20px;
+  padding: 10px;
+}
+.content-inputs .input {
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.content-inputs .boton-agregar {
+  font-size: 14px;
+  padding: 9px;
+  border-radius: 5px;
+  background: #0b0b8b;
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */

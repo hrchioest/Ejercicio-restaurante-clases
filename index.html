@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">E-Restaurant</h1>
+    </header>
+
+    <section class="seccion">
+        <h2 class="subtitulo">Mesas</h2>
+        
+        <article class="js-mesas-tabla"></article>
+        <footer class="js-mesas-crear"></footer>
+        
+    </section>
+    <section class="seccion">
+        <h2 class="subtitulo">Cargar Productos a Mesa</h2>
+
+        <article class="js-productos-mesa-tabla"></article>
+        <footer class="js-cargar-productos"></footer>
+            
+    </section>
+
+    <section class="seccion">
+        <h2 class="subtitulo">Productos</h2>
+
+        <article class="js-productos-tabla"></article>
+        <footer class ="js-productos-crear"></footer>
+       
+    </section>
+
+    <section class="seccion">
+        <h2 class="subtitulo">Productos por Mesa</h2>
+
+        <div class="content-inputs js-selec-mesa"></div> 
+        <article class ="js-prods-mesas-tabla"></article>
+       
+        
+    </section>
+
+<script src="clases/mesas.js"></script>
+<script src="clases/pedidos.js"></script>
+<script src="clases/productos.js"></script>
+<script src="clases/restaurante.js"></script>
+
+<script src="armar-mesas-dom.js"></script>
+<script src="crear-prod-dom.js"></script>
+<script src="prods-a-mesa-dom.js"></script>
+<script src="prods-por-mesa-dom.js"></script>
+
+<script>
+const productos = new Productos();
+const mesas = new Mesas();
+const restaurante = new Restaurante(mesas, productos);
+
+
+crearTablaProductos();
+crearProducto();
+
+armarTablaMesas();
+crearAgregarMesa();
+
+crearTablaProductosMesa();
+
+armarSelectMesas();
+selecMesasProdMesa ();
+armarTablaProdsMesa();
+
+</script>
+</body>
+</html>
